@@ -1,0 +1,103 @@
+Informazioni sulla codificazione delle persone fisiche
+Numero di codice fiscale delle persone fisiche
+Il numero di codice fiscale delle persone fisiche è costituito da un'espressione alfanumerica di sedici caratteri.
+
+I primi quindici caratteri sono indicativi dei dati anagrafici di ciascun soggetto secondo l'ordine seguente:
+
+tre caratteri alfabetici per il cognome;
+tre caratteri alfabetici per il nome;
+due caratteri numerici per l'anno di nascita;
+un carattere alfabetico per il mese di nascita;
+due caratteri numerici per il giorno di nascita ed il sesso;
+quattro caratteri, di cui uno alfabetico e tre numerici per il comune italiano o per lo Stato estero di nascita.
+Il sedicesimo carattere, alfabetico, ha funzione di controllo.
+
+Caratteri indicativi del cognome
+I cognomi che risultano composti da più parti o comunque separati od interrotti, vengono considerati come se fossero scritti secondo un'unica ed ininterrotta successione di caratteri.
+
+Per i soggetti coniugati di sesso femminile si prende in considerazione soltanto il cognome da nubile.
+Se il cognome contiene tre o più consonanti, i tre caratteri da rilevare sono, nell'ordine, la prima, la seconda e la terza consonante.
+Se il cognome contiene due consonanti, i tre caratteri da rilevare sono, nell'ordine, la prima e la seconda consonante e la prima vocale.
+Se il cognome contiene una consonante e due vocali, si rilevano, nell'ordine, quella consonante e quindi la prima e la seconda vocale.
+Se il cognome contiene una consonante e una vocale, si rilevano la consonante e la vocale, nell'ordine, e si assume come terzo carattere la lettera x (ics).
+Se il cognome e' costituito da due sole vocali, esse si rilevano, nell'ordine, e si assume come terzo carattere la lettera x (ics).
+
+Caratteri indicativi del nome
+I nomi doppi, multipli o comunque composti, vengono considerati come scritti per esteso in ogni loro parte e secondo un'unica ed ininterrotta successione di caratteri.
+
+Se il nome contiene quattro o più consonanti, i tre caratteri da rilevare sono, nell'ordine, la prima, la terza e la quarta consonante.
+Se il nome contiene tre consonanti, i tre caratteri da rilevare sono, nell'ordine, la prima, la seconda e la terza consonante.
+Se il nome contiene due consonanti, i tre caratteri da rilevare sono, nell'ordine, la prima e la seconda consonante e la prima vocale.
+Se il nome contiene una consonante e due vocali, i tre caratteri da rilevare sono, nell'ordine, quella consonante e quindi la prima e la seconda vocale.
+Se il nome contiene una consonante e una vocale, si rilevano la consonante e la vocale, nell'ordine, e si assume come terzo carattere la lettera x (ics).
+Se il nome e' costituito da due sole vocali, esse si rilevano nell'ordine, e si assume come terzo carattere la lettera x (ics).
+
+Data, sesso e luogo di nascita
+I due caratteri numerici indicativi dell'anno di nascita sono, nell'ordine, la cifra delle decine e la cifra delle unità dell'anno stesso.
+Il carattere alfabetico corrispondente al mese di nascita e' quello stabilito per ciascun mese nella seguente tabella:
+
+Tabella A – conversione del mese di nascita
+Gennaio = A	Maggio = E	Settembre = P
+Febbraio = B	Giugno = H	Ottobre = R
+Marzo = C	Luglio = L	Novembre = S
+Aprile = D	Agosto = M	Dicembre = T
+I due caratteri numerici indicativi del giorno di nascita e del sesso vengono determinati nel modo seguente:
+
+Per i soggetti maschili il giorno di nascita figura invariato, con i numeri da uno a trentuno, facendo precedere dalla cifra zero i giorni del mese dall'uno al nove.
+Per i soggetti femminili il giorno di nascita viene aumentato di quaranta unità, per cui esso figura con i numeri da quarantuno a settantuno.
+* * *
+
+I quatto caratteri alfanumerici indicativi del comune italiano o dello Stato estero di nascita, sono costituiti da un carattere alfabetico seguito da tre caratteri numerici, secondo la codifica stabilita dall’Agenzia del Territorio.
+
+Persone fisiche con identica espressione alfanumerica (omocodia)
+Quando due o più soggetti hanno dati anagrafici che generano lo stesso codice fiscale (omocodici), per ciascuno di essi si provvede a differenziare il codice fiscale. A tal fine, si effettuano, nell'ambito dei sette caratteri numerici contenuti nel codice, sistematiche sostituzioni di una o più cifre a partire da quella di destra, con corrispondenti caratteri alfabetici secondo la seguente tabella:
+
+Tabella B – conversione di cifre in caratteri alfabetici (per omocodici)
+0 = L	4 = Q	8 = U
+1 = M	5 = R	9 = V
+2 = N	6 = S
+3 = P	7 = T
+Carattere alfabetico di controllo
+Il sedicesimo carattere ha funzione di controllo dell'esatta trascrizione dei primi quindici caratteri e viene determinato in questo modo:
+
+1. ciascuno degli anzidetti quindici caratteri, a seconda che occupi posizione di ordine pari o posizione di ordine dispari, viene convertito in un valore numerico, in base alle tabelle di corrispondenza successivamente riportate.
+
+Per i sette caratteri con posizione di ordine pari:
+
+Tabella C – conversione dei caratteri con posizione di ordine pari
+A o 0 = 0	F o 5 = 5	K = 10	P = 15	U = 20
+B o 1 = 1	G o 6 = 6	L = 11	Q = 16	V = 21
+C o 2 = 2	H o 7 = 7	M = 12	R = 17	W = 22
+D o 3 = 3	I o 8 = 8	N = 13	S = 18	X = 23
+E o 4 = 4	J o 9 = 9	O = 14	T = 19	Y = 24
+ 	 	 	 	Z = 25
+Per gli otto caratteri con posizione di ordine dispari:
+
+Tabella D– conversione dei caratteri con posizione di ordine dispari
+A o 0 = 1	F o 5 = 13	K = 2	P = 3	U = 16
+B o 1 = 0	G o 6 = 15	L = 4	Q = 6	V = 10
+C o 2 = 5	H o 7 = 17	M = 18	R = 8	W = 22
+D o 3 = 7	I o 8 = 19	N = 20	S = 12	X = 25
+E o 4 = 9	J o 9 = 21	O = 11	T = 14	Y = 24
+ 	 	 	 	Z = 23
+2. I valori numerici così determinati vengono addizionati e la somma si divide per il numero 26. Il carattere di controllo si ottiene convertendo il resto di tale divisione nel carattere alfabetico ad esso corrispondente nella sotto indicata tabella:
+
+Tabella E – determinazione del "check-digit"
+0 = A	5 = F	10 = K	15 = P	20 = U
+1 = B	6 = G	11 = L	16 = Q	21 = V
+2 = C	7 = H	12 = M	17 = R	22 = W
+3 = D	8 = I	13 = N	18 = S	23 = X
+4 = E	9 = J	14 = O	19 = T	24 = Y
+ 	 	 	 	25 = Z
+Numero di codice fiscale provvisorio
+L'amministrazione finanziaria può attribuire alle persone fisiche un numero di codice fiscale provvisorio.
+
+Il numero di codice fiscale provvisorio delle persone fisiche è costituito da una espressione numerica di undici cifre. Le prime sette cifre rappresentano il numero di matricola del soggetto; le cifre dall'ottava alla decima identificano l'ufficio che attribuisce il numero di codice fiscale provvisorio e l'undicesimo è il carattere numerico di controllo.
+
+Carattere numerico di controllo
+Il carattere numerico di controllo viene determinato nel modo seguente:
+
+si sommano i valori di ciascuna delle cinque cifre di ordine dispari,partendo da sinistra;
+si raddoppia ogni cifra di ordine pari e, se il risultato è un numero di due cifre, esso si riduce ad una sola sommando la cifra relativa alle decine e quella relativa alle unità; si sommano quindi tutti i precedenti risultati;
+si determina il totale delle due somme di cui sopra;
+si sottrae da dieci la cifra relativa alle unità del precedente totale. Il carattere di controllo è la cifra relativa alle unità del risultato.
